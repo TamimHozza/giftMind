@@ -1,0 +1,71 @@
+.dashboard {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #d63384;
+}
+
+.add-btn {
+  background-color: #d63384;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.recipient-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recipient-card {
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  text-decoration: none;
+  color: #333;
+  display: block;
+}
+
+.recipient-card h2 {
+  margin: 0;
+  color: #333;
+}
+
+.recipient-actions,
+.edit-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.recipient-actions button,
+.edit-buttons button {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.85rem;
+  background: #eee;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.recipient-actions button:hover,
+.edit-buttons button:hover {
+  background: #ddd;
+}

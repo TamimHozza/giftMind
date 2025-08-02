@@ -1,0 +1,68 @@
+.add-page {
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.add-page h1 {
+  font-size: 1.8rem;
+  color: #d63384;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  color: #333;
+}
+
+label span {
+  color: red;
+  margin-left: 4px;
+}
+
+input {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 0.3rem;
+}
+
+button[type='submit'] {
+  background: #d63384;
+  color: white;
+  padding: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c02775;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #d63384;
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
